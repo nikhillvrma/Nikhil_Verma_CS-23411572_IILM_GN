@@ -8,6 +8,7 @@ class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         ans = []
 
+
         def postorder(root):
             if root == None:
                 return
